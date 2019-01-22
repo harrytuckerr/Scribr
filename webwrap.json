@@ -26,7 +26,7 @@
     "body": {
       "background": {
         "type": "html",
-        "url": "https://tryscribr.com/",
+        "url": "https://tryscribr.com/dashboard",
         "action": {
           "trigger": "visit"
         }
