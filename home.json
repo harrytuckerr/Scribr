@@ -1,0 +1,74 @@
+{
+  "$jason": {
+    "head": {
+      "title": "Scribr | Fast, easy transcriptions",
+      "description": "Transcribe your interview, lecture or meeting in minutes. Summarize them with AI.",
+      "icon":"https://d1muf25xaso8hp.cloudfront.net/https%3A%2F%2Fs3.amazonaws.com%2Fappforest_uf%2Ff1540967963268x145365527831018000%2Ficon.png?w=128&h=128&auto=compress&fit=max",
+      "offline":"true",
+      "styles":{
+        "title":{
+          "font": "OpenSans700",
+          "size": "20"
+          "color": "#333333"
+        }
+         "bodyText":{
+          "font": "SanFrancisco-light",
+          "size": "20",
+          "color": "#333333",
+        }
+        }
+      }
+        "action": {
+        "load_transcripts": {
+        "type": "$network.request",
+        "options":{
+          "url:": "https://tryscribr.com/api/1.1/obj/transcripts",
+          "method": "GET",
+          "data": {
+            "category": "",
+          }
+          "header": {
+                    "Authorization": "Bearer 16f6119e1013ef494d09e40977c5227f"
+                  },
+                }
+                "success": {
+                  "type": "$render"
+                },
+                "action": {
+        "load_user": {
+        "type": "$network.request",
+        "options":{
+          "url:": "https://tryscribr.com/api/1.1/obj/users",
+          "method": "GET",
+          "data": {
+            "category": "",
+          }
+          "header": {
+                    "Authorization": "Bearer 16f6119e1013ef494d09e40977c5227f"
+                  },
+                }
+                "success": {
+                  "type": "$render"
+                }
+
+        }
+      }
+      }
+    },
+    "body": {
+      "background": "#256EFF"
+      "header":{
+        "title": {
+          "type": "image",
+          "style":{
+            "width": "130",
+            "height": "27"
+          },
+          "url": "https://s3.amazonaws.com/appforest_uf/f1547617007560x678295170568745700/icon-left-font-monochrome-white.svg"
+        }
+      },
+
+      
+      }
+}
+
