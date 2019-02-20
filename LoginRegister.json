@@ -32,7 +32,8 @@
               "text": "Email",
               "style": {
                 "font": "HelveticaNeue",
-                "color": "#ffffff"
+                "color": "#ffffff",
+                "spacing": "5"
               }
             },
             {
@@ -44,7 +45,8 @@
               "text": "Password",
               "style": {
                 "font": "HelveticaNeue",
-                "color": "#ffffff"
+                "color": "#ffffff",
+                "spacing": "5"
               }
             },
             {
