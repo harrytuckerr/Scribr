@@ -76,6 +76,10 @@
                   "options": {
                     "title": "Error setting global"
                   }
+                },
+                "href": {
+                    "url": "https://raw.githubusercontent.com/harrytuckerr/Scribr/master/Home.json",
+                    "view": "jason"
                 }
               },
               "error": {
