@@ -1,0 +1,86 @@
+{
+  "$jason": {
+    "head": {
+      "title": "Scribr | Easy, fast, affordable transcription",
+      "description": "Use Scribr to transcribe your interview or lecture fast and at a price you can afford.",
+      "icon": "Insert_URL",
+      "offline": "true",
+      "actions": {
+        "$foreground": {
+          "type": "$reload"
+        },
+        "$pull": {
+          "type":"$reload"
+        }
+      }
+    },
+    "body": {
+      "background": "#1F95FF",
+      "header": {
+        "title": "Scribr",
+        "style": {
+          "font": "HelveticaNeue",
+          "color": "#ffffff"
+        }
+      },
+      "sections": [
+        {
+          "items": [
+            {
+              "type": "label",
+              "text": "Email"
+            },
+            {
+              "name": "email",
+              "type": "textfield"
+            },
+            {
+              "type":"label",
+              "text": "Password"
+            },
+            {
+              "name": "password",
+              "type":"textfield",
+              "style": {
+                "secure": "true"
+              }
+            },
+            {
+              "type": "button",
+              "text": "Sign In",
+              "action": {
+                "type": "$network.request",
+                "options": {
+                  "url": "https://transcribr.bubbleapps.io/api/1.1/wf/login",
+                  "method": "post",
+                  "data": {
+                    "email": "what@b.com",
+                    "password": "aaaaaaa"
+                  },
+                  "header": {
+                    "Authorization": "Bearer 16f6119e1013ef494d09e40977c5227f"
+                  }
+                }
+              },
+              "success": {
+                "type": "$global.set",
+                "options": {
+                  "user": "{{$jason}}"
+                },
+                "success": {
+                  "type": "$render"
+                },
+                "error": {
+                  "type": "util.banner",
+                  "options": {
+                    "title": "Error setting global"
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
