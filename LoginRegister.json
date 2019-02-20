@@ -29,7 +29,11 @@
           "items": [
             {
               "type": "label",
-              "text": "Email"
+              "text": "Email",
+              "style": {
+                "font": "HelveticaNeue",
+                "color": "#ffffff"
+              }
             },
             {
               "name": "email",
@@ -37,7 +41,11 @@
             },
             {
               "type":"label",
-              "text": "Password"
+              "text": "Password",
+              "style": {
+                "font": "HelveticaNeue",
+                "color": "#ffffff"
+              }
             },
             {
               "name": "password",
