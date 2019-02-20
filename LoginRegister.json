@@ -20,7 +20,8 @@
         "title": "Scribr",
         "style": {
           "font": "HelveticaNeue",
-          "color": "#ffffff"
+          "color": "#ffffff",
+          "background": "#1F95FF"
         }
       },
       "sections": [
@@ -75,6 +76,13 @@
                   "options": {
                     "title": "Error setting global"
                   }
+                }
+              },
+              "error": {
+                  "type": "$util.banner",
+                  "options": {
+                      "title": "Error signing in",
+                      "type": "error"
                 }
               }
             }
