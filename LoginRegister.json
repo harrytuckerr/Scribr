@@ -38,7 +38,7 @@
             },
             {
               "type": "textfield",
-              "name": "email"
+              "name": "user"
               
             },
             {
@@ -52,7 +52,7 @@
             },
             {
                 "type": "textfield",
-                "name": "password",
+                "name": "pass",
                 "style": {
                 "secure": "true"
               }
@@ -66,8 +66,8 @@
                   "url": "https://transcribr.bubbleapps.io/api/1.1/wf/login",
                   "method": "post",
                   "data": {
-                    "email": "{{$get.email}}",
-                    "password": "{{$get.password}}"
+                    "email": "{{$get.user}}",
+                    "password": "{{$get.pass}}"
                   },
                   "header": {
                     "Authorization": "Bearer 16f6119e1013ef494d09e40977c5227f"
