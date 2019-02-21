@@ -67,10 +67,11 @@
             {
               "type": "label",
               "style": {
-                "width": "60%",
+                "width": "200",
                 "color": "#1F95FF",
                 "background": "#ffffff",
                 "size": "18",
+                "align": "centre",
                 "corner_radius": "5"
               },
               "text": "Sign In",
