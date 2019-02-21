@@ -64,9 +64,12 @@
               "type": "button",
               "text": "Sign In",
               "style": {
-                "width": "50%",
+                "width": "150",
                 "color": "#1F95FF",
-                "background": "#ffffff"
+                "background": "#ffffff",
+                "size": "18",
+                "corner_radius": "5"
+
               },
               "action": {
                 "type": "$network.request",
