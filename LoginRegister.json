@@ -65,7 +65,7 @@
                   "url": "https://transcribr.bubbleapps.io/api/1.1/wf/login",
                   "method": "post",
                   "data": {
-                    "email": "harrytuckerr@gmail.com ",
+                    "email": "harrytuckerr@gmail.com",
                     "password": "Jimmy2014"
                   },
                   "header": {
