@@ -64,7 +64,7 @@
               "type": "button",
               "text": "Sign In",
               "style": {
-                "width": "150",
+                "width": "50",
                 "color": "#1F95FF",
                 "background": "#ffffff",
                 "size": "18",
