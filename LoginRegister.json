@@ -68,7 +68,8 @@
                 "color": "#1F95FF",
                 "background": "#ffffff",
                 "size": "18",
-                "corner_radius": "5"
+                "corner_radius": "5",
+                "padding": "5"
 
               },
               "action": {
