@@ -27,6 +27,10 @@
       "sections": [
         {
           "items": [
+              {
+                "type": "space",
+                "height": "5"
+              },
             {
               "type": "label",
               "text": "Email",
@@ -64,13 +68,12 @@
               "type": "button",
               "text": "Sign In",
               "style": {
-                "width": "50",
+                "width": "160",
+                "height": "40",
                 "color": "#1F95FF",
                 "background": "#ffffff",
                 "size": "18",
-                "corner_radius": "5",
-                "padding": "5"
-
+                "corner_radius": "5"
               },
               "action": {
                 "type": "$network.request",
