@@ -63,6 +63,11 @@
             {
               "type": "button",
               "text": "Sign In",
+              "style": {
+                "width": "50%",
+                "color": "#1F95FF",
+                "background": "#ffffff"
+              },
               "action": {
                 "type": "$network.request",
                 "options": {
