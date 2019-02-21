@@ -74,6 +74,7 @@
                 "background": "#ffffff",
                 "size": "18",
                 "align": "center",
+                "padding": "10",
                 "corner_radius": "5"
               },
               "text": "Sign In",
