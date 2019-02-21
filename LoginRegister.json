@@ -65,16 +65,15 @@
                 "height": "5"
             },
             {
-              "type": "button",
-              "text": "Sign In",
+              "type": "label",
               "style": {
-                "width": "160",
-                "height": "40",
+                "width": "60%",
                 "color": "#1F95FF",
                 "background": "#ffffff",
                 "size": "18",
                 "corner_radius": "5"
               },
+              "text": "Sign In",
               "action": {
                 "type": "$network.request",
                 "options": {
