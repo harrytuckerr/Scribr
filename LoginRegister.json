@@ -65,8 +65,8 @@
                   "url": "https://transcribr.bubbleapps.io/api/1.1/wf/login",
                   "method": "post",
                   "data": {
-                    "email": "{{$jason.email}}",
-                    "password": "{{$jason.password}}"
+                    "email": "{{$get.email}}",
+                    "password": "{{$get.password}}"
                   },
                   "header": {
                     "Authorization": "Bearer 16f6119e1013ef494d09e40977c5227f"
