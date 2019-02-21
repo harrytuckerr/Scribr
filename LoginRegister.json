@@ -67,10 +67,10 @@
             {
               "type": "label",
               "style": {
-                "width": "200",
+                "width": "90",
                 "color": "#1F95FF",
-                "left": "50%-50",
-                "right": "50%-50",
+                "left": "50",
+                "right": "50",
                 "background": "#ffffff",
                 "size": "18",
                 "align": "centre",
