@@ -69,6 +69,8 @@
               "style": {
                 "width": "200",
                 "color": "#1F95FF",
+                "left": "50%-50",
+                "right": "50%-50",
                 "background": "#ffffff",
                 "size": "18",
                 "align": "centre",
