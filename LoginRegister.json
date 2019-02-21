@@ -73,7 +73,7 @@
                 "right": "50",
                 "background": "#ffffff",
                 "size": "18",
-                "align": "centre",
+                "align": "center",
                 "corner_radius": "5"
               },
               "text": "Sign In",
