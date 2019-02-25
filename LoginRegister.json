@@ -106,7 +106,7 @@
                     "title": "Error setting global"
                   }
                 },
-                "href": {
+                "$href": {
                     "url": "https://raw.githubusercontent.com/harrytuckerr/Scribr/master/Home.json",
                     "view": "jason",
                     "transition": "push"
